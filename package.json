@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-lodash",
   "version": "2.5.3",
+  "name": "@chettapong/nuxt-lodash",
   "packageManager": "pnpm@8.9.2",
   "description": "Lodash for Nuxt",
   "keywords": [
