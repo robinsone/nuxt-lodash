@@ -1,6 +1,7 @@
 import module from '..'
 export default defineNuxtConfig({
   modules: [module],
+  compatibilityDate: '2025-10-21',
   lodash: {
     prefix: '_',
     prefixSkip: ['string'],

@@ -1,9 +1,9 @@
  <h1>Lodash for Nuxt</h1>
 
 <p>
-  <a href="https://www.npmjs.com/package/@chettapong/nuxt-lodash"><img src="https://badgen.net/npm/v/@chettapong/nuxt-lodash" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/@chettapong/nuxt-lodash"><img src="https://badgen.net/npm/license/@chettapong/nuxt-lodash" alt="License"></a>
-  <a href="https://www.npmjs.com/package/@chettapong/nuxt-lodash"><img src="https://badgen.net/npm/types/@chettapong/nuxt-lodash" alt="Types"></a>
+  <a href="https://www.npmjs.com/package/@robinsone/nuxt-lodash"><img src="https://badgen.net/npm/v/@robinsone/nuxt-lodash" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/@robinsone/nuxt-lodash"><img src="https://badgen.net/npm/license/@robinsone/nuxt-lodash" alt="License"></a>
+  <a href="https://www.npmjs.com/package/@robinsone/nuxt-lodash"><img src="https://badgen.net/npm/types/@robinsone/nuxt-lodash" alt="Types"></a>
 </p>
 
 ## 💡 About
@@ -12,17 +12,17 @@
 
 ## 📦 Install
 
-1. Install `@chettapong/nuxt-lodash` as development dependency:
+1. Install `@robinsone/nuxt-lodash` as development dependency:
 
 ```bash
-npm i @chettapong/nuxt-lodash -D
+npm i @robinsone/nuxt-lodash -D
 ```
 
 2. Add it to the `modules` section of your `nuxt.config`:
 
 ```ts
 export default defineNuxtConfig({
-  modules: ["@chettapong/nuxt-lodash"],
+  modules: ["@robinsone/nuxt-lodash"],
 });
 ```
 
@@ -54,7 +54,7 @@ Use any [Lodash](https://lodash.com) methods in your Nuxt application, they will
 
 ```ts
 export default defineNuxtConfig({
-  modules: ["@chettapong/nuxt-lodash"],
+  modules: ["@robinsone/nuxt-lodash"],
   lodash: {
     prefix: "_",
     prefixSkip: ["string"],
